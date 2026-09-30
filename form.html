@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .form-group {margin-bottom:15px}
+    .form-group label {display:block; margin-bottom:5px; font-weight:bold; font-size:14px}
+    .form-group input, .form-group select, .form-group textarea {
+      width:100%; padding:10px; border:1px solid #ab2e2e; border-radius:6px; font-size:14px
+    }
+    .btn {background:#1e293b; color:white; padding:12px 20px; border:none; border-radius:6px; cursor:pointer; width:100%; font-weight:bold}
+    .btn:hover {background:#fda78b}
+  </style>
+</head>
+<body>
+<div class="app">
+  <nav class="side">
+    <h3>🎓 Student Hub</h3>
+    <a href="index.html">🏠 Home</a>
+    <a href="dashboard.html">📊 Dashboard</a>
+    <a href=".html">🎨 Selectors</a>
+    <a href="flexbox.html">📦 Flexbox</a>
+    <a href="grid.html">🔲 Grid</a>
+    <a href="registration.html" style="background:#334155; color:white">📝 Registration</a>
+  </nav>
+
+  <main class="main">
+    <h1>Student Registration</h1>
+    <p style="color:gray; margin:10px 0 20px">Fill the form to register</p>
+    
+    <div style="max-width:500px; background:#f8fafc; padding:20px; border-radius:10px; border:1px solid #ddd">
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" placeholder="belise uwase">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="belise@gmail.com">
+      </div>
+      <div class="form-group">
+        <label>Service Needed</label>
+        <select>
+          <option>CV Writing</option>
+          <option>Job Application</option>
+          <option>School Registration</option>
+          <option>Career Advice</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea rows="4" placeholder="Write your message..."></textarea>
+      </div>
+      <button class="btn">Submit Registration</button>
+    </div>
+  </main>
+</div>
+</body>
+</html>
